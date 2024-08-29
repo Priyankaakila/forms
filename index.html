@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+    <!-- creating form -->
+
+    <form action="" id="main-form">
+        <div class="info">
+            <img src="https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-135.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1724630400&semt=ais_hybrid" alt="">
+
+            <p>Welcome to our website!</p>
+            <p>Kindly Login or SignUp.</p>
+        </div>
+
+        <div class="login-form" id="login-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+            <h3 class="title">Login</h3>
+            
+            <div class="user-form" id="user-form">
+                <div class="input-container">
+                    <label for="username" >Username</label>
+                    <input type="text" id="username" name="Username" class="form-input " autocomplete="on" >
+                    <span class="message" id="message">**Invalid Username**</span>
+                </div>
+                
+                <div class="input-container">
+                    <label for="password">Password</label> 
+                    <input type="password" id="password" name="Password" class="form-input ">
+                    <span class="message" id="message">**Invalid Password**</span>
+                </div>
+                
+                <div class="input-container">
+                    <label for="password">Confirm Password</label> 
+                    <input type="password" id="confirm-password" class="form-input" name="Password">
+                    <span class="message" id="message">**Invalid Password**</span>
+                </div>
+                
+                <input id="login-btn" type="submit" value="login">
+            </div>
+            </div>
+    </form>
+    </main>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
